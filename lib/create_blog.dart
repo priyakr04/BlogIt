@@ -16,7 +16,7 @@ class CreateBlog extends StatefulWidget {
 }
 
 class _CreateBlogState extends State<CreateBlog> {
-  String authorName = "", title = "", desc = "";
+  String? authorName , title , desc ;
   File? selectedImage;
   bool? _isLoading;
 
