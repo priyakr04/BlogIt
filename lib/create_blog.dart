@@ -63,9 +63,9 @@ class _CreateBlogState extends State<CreateBlog> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-          title: Row(
+          title: const Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const <Widget>[
+            children: <Widget>[
               Text(
                 'Flutter',
                 style: TextStyle(fontSize: 22),

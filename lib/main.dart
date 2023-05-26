@@ -2,7 +2,7 @@
 import 'package:firebase_app_check/firebase_app_check.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:newblog/home.dart';
+import 'package:newblog/authentication/login.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       
       theme: ThemeData.dark(),
-      home: const HomePage(),
+      home:  LoginPage(),
     );
   }
 }
