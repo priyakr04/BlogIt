@@ -121,6 +121,38 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.0.10+1"
+  firebase_auth:
+    dependency: "direct main"
+    description:
+      name: firebase_auth
+      sha256: "64ac4dc04b51aab9d17c23b496c90f948b9ce2065d7b83e0829c7a497d88f9ce"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.6.1"
+  firebase_auth_platform_interface:
+    dependency: transitive
+    description:
+      name: firebase_auth_platform_interface
+      sha256: "63fd67d125ae483722ff3742953e2e06bbc1e6cb3da68e5f7f4430d5f82f9373"
+      url: "https://pub.dev"
+    source: hosted
+    version: "6.15.1"
+  firebase_auth_rest:
+    dependency: "direct main"
+    description:
+      name: firebase_auth_rest
+      sha256: "2e199a186e7271988610c409ebf759204b5d3861a34c052c50c02f8b1f7c3284"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.3"
+  firebase_auth_web:
+    dependency: transitive
+    description:
+      name: firebase_auth_web
+      sha256: "241a4ecce80da2014e3cd93d7b7e1a66e9b683e4241d466d73676ac90599b805"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.5.1"
   firebase_core:
     dependency: "direct main"
     description:
@@ -200,6 +232,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  freezed_annotation:
+    dependency: transitive
+    description:
+      name: freezed_annotation
+      sha256: "70776c4541e5cacfe45bcaf00fe79137b8c61aa34fb5765a05ce6c57fd72c6e9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.14.3"
   http:
     dependency: transitive
     description:
@@ -264,6 +304,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.7"
+  json_annotation:
+    dependency: transitive
+    description:
+      name: json_annotation
+      sha256: b10a7b2ff83d83c777edba3c6a0f97045ddadd56c944e1a23a3fdf43a1bf4467
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.8.1"
   lints:
     dependency: transitive
     description:
